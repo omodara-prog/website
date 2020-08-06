@@ -1,0 +1,391 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+header
+{
+	background-image: white;
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 300px;
+
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+
+.bus img
+{
+	width: 100px;
+	height: auto;
+	float: left;
+	transform: skewY(2deg);
+}
+
+body
+{
+	overflow-x: hidden;
+	body {font-family: Arial, Helvetica, sans-serif;}
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2px 5px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 5px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 9%;
+  border-radius: 5%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 38%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+  
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+	    .hero{
+		position: absolute;
+		width: 1200px;
+		margin-top: 50px;
+		margin-left: 100px;
+	}
+
+	.dara{
+		color: black;
+		text-transform: lowercase;
+		font-size: 20px;
+		text-align: left;
+		margin-top: 10px;
+		margin-right: 400px;
+	}
+	
+		.buttom{
+		margin-top: 30px;
+		margin-right: 300px;
+	}
+
+	.btn{
+		border: 2px;
+		background-color: green; 
+		padding: 10px 30px;
+		color: black;
+		text-decoration: none;
+		margin-right: 5px;
+		font-size: 13px;
+		text-transform: lowercase;
+	} 	
+			.btn-one{
+			font-family: "Roboto",san-serif;
+			font-weight: bold;
+
+		}
+	.car img{
+	height: 150px;
+	float: right ;
+	margin-right: 300px;
+	width: 40%;
+	transform: skewY(60deg), skewX(50deg);
+	margin-top: 60px;
+	}	
+
+
+.card{
+	padding: 0rem 0;
+	background-color: #fff;
+	height: 50vh;
+}
+.heading{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-right: 3px;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: green;
+  position: relative;
+}
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  padding-right: 20px;
+  display: flex;
+  vertical-align: middle;
+  float: left;
+  top: 100px;
+  height: 40px;
+}
+.button5 {border-radius: 50%;
+width:15%;
+}
+
+
+.box-area{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(51, 204, 204), rgb(51, 102, 204));
+  text-align: center;
+
+}
+.single-box{
+  position: relative;
+ /* display: flex;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  transition: .3s;
+}
+.header-text{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 20px;
+
+}
+
+@media screen and (max-width: 1200px){
+      .card{
+        width: 40%;
+      }
+      
+}
+
+@media screen and (max-width: 600px){
+  .card{
+    width: 90%;
+  }
+}
+
+h2{
+
+	color: blue;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	color: green;
+}
+p{
+	text-align: center;
+	padding: 10px;
+}
