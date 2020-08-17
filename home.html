@@ -1,277 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-
-	<link rel="stylesheet" type="text/css" href="home.css">
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>omodara | home</title>
+  <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-   <header>
-	    <div class="row">
-          	<div class="bus">
-            	<img src="bus.jpg">
-          	</div>
-              	<ul class="main-nav">
-	              <li  class="active"><a href="#home">Home</a></li>
-	              <li><a href="#about us">About us</a></li>
-	              <li><a href="#invest">Invest</a></li>
-	              <li><a href="FAQs">FAQs</a></li>
-        		</ul>
-        			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      
+          <div class="navbar-header">
+            
+            <img src="bus.jpg" alt="bus logo"/>
+          </div>
+  
+      
+          <div>
+              <ul class="nav navbar-nav navbar-center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Invest</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> LOGIN</a></li>
+                <li><button type="button" class="btn btn-success navbar-btn">SIGN UP</button></li>
+              </ul>
+          </div>
+    </div>
+  </nav>
 
-				<div id="id01" class="modal">
-				  
-				  <form class="modal-content animate" action="/action_page.php" method="post">
-				    <div class="imgcontainer">
-				      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-				      <img src="buss.jpg" alt="Avatar" class="avatar">
-				    </div>
+<div class="second-section">
+      <div class="second-section_left">
+        <div class="second-section_left-container">
+          <p class="p-tag">
+            welcome to the future of safe transport,<br> keep the city moving with
+            us.
+          </p>
+          <a href="#" class="btn2">Invest Now</a>
+        </div>
+      </div>
+      <div class="second-section_right">
+        <img src="file:///C:/Users/USER/Downloads/undraw_Bus_stop_8ib0.svg" alt="Company picture" class="company" />
+      </div>
+    </div>
 
-				    <div class="container">
-				      <input type="text" placeholder="Enter Username" name="uname" required>
-
-				      <input type="password" placeholder="Enter Password" name="psw" required>
-				        
-				      <button type="submit">Login</button>
-				      <label>
-				      	<span class="psww">
-					        <a href=""> don't have an account? Register</a>
-					      </label>
-					    </span>
-					    <span class="psw">
-					       <a href="#">forgot password?</a>
-				    	</span>
-				    </div>	
-				  </form>
-		        </div>
-
-			<script>
-			// Get the modal
-			var modal = document.getElementById('id01');
-
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-			    if (event.target == modal) {
-			        modal.style.display = "none";
-			    }
-			}
-			</script>
-			<button onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Sign Up</button>
-
-<div id="id04" class="modal">
-  <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
-  	<form class="modal-content animate" action="/action_page.php" method="post">
-	    <div class="imgcontainer">
-	    	<img src="buss.jpg" alt="Avatar" class="avatar">
-	    </div>  
-	    <div class="container">
-	      <label for="email"><b>Email</b></label>
-	      <input type="text" placeholder="Enter Email" name="email" required>
-
-	      <label for="psw"><b>Password</b></label>
-	      <input type="password" placeholder="Enter Password" name="psw" required>
-
-	      <label for="psw-repeat"><b>Repeat Password</b></label>
-	      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-	      
-	      <label>
-	        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-	      </label>
-
-	      
-	     <div class="clearfix">
-	        
-	        <button type="submit" class="signupbtn">Sign Up</button>
-	     </div>
-    	</div>
-  	</form>
-</div>
-
-			<script>
-			// Get the modal
-			var modal = document.getElementById('id04');
-
-			// When the user clicks anywhere outside of the modal, close it
-			window.onclick = function(event) {
-			  if (event.target == modal) {
-			    modal.style.display = "none";
-			  }
-			}
-			</script>
-
-				    
-	    </div>	
-	    	<div>
-	    		<div class="hero">
-			        <h1 class="dara">Welcome to the future of safe transport,<br>Keep the city moving with us.</h1>
-			            
-			        <div class="buttom">
-			            <a href="" class=btn btn-one">invest now</a>
-          			</div> 
-          		</div>	   
-          			<div class="car">
-          				<img src="12337.png" alt="bus">
-          			</div>
-          	</div>		
-      			
-	</header>
-	<section class="card">
-	<div style="display: flex;">
-		
-		<div class="container">
-			<h1 class="heading">How it works</h1>
-
-		      
-
-		      
-		     <div class="box-area">
-        
-		        <div class="single-box">
-		              
-		            <div class="img-text">
-			        <div>
-					    <button class="button button5">1</button>
-					</div>
-		                  <span class="header-text"><strong>create an account</strong></span>
-		                  <p>Register a free account in 3<br>minutes and find ongoing<br>sponsorship opportunities.</p>
-		            </div>
-              
-                </div>
-
-                <div class="single-box">
-              
-                    <div class="img-text">
-                    <div>
-				        <button class="button button5">2</button>
-				    </div>
-		                  <span class="header-text"><strong>fund a bus</strong></span>
-		                  <p>select the number of units<br>you want to fund and make<br>payment.</p>
-                    </div>
-              
-                </div>
-            <div class="single-box">
-              
-                <div class="img-text">
-		        <div>
-				    <button class="button button5">3</button>
-				</div>
-		                  <span class="header-text"><strong>Get Return</strong></span>
-		                  <p>Get periodic updates,sit<br>back watch your money<br>grow.</p>
-                </div>
-              
-            </div>
-    
-		</div>
-    </div>   		
-
-	</section>
-
-	
-				<h2>sponsor a bus now</h2>
-				<p>you can choose a bus  route available across 50 cities to invest in</p>
-				
-		
-	<div class="container">
-		<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<div class="row">
-			<div class="col-md-3 col-sm-6">
-				<div class="card">
-					<div class="card-block">
-						<img src="busss.png" alt="" class="img-fluid" style="width: 100%; height: 80px; transform: skewY(60deg), skewX(50deg); outline: 1px solid;">
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 15px;"> oshodi-leki. <i>20%Returnin12months</i>
-							
-						</div>
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 5px;">Return. duration. Unitsavailable
-							<div class="card-text" style="word-spacing: 30px; padding-bottom: 5px;">32%. 24months. 185.
-							
-						</div>
-						</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-stripped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuein="0" aria-valuemax="100" style="width: 32%;"></div>
-						
-					</div>
-
-					        <div class="card-text">23% left
-					        	<div class="btn-group">
-					        		<a href="#" class="btn btn-success" style="float: right; margin-left: 140px;">Fund</a>
-					        	</div>	
-					       	</div> 	
-
-					       	
-							   
-							  
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-3 col-sm-6">
-				<div class="card">
-					<div class="card-block">
-						<img src="busss.png" alt="" class="img-fluid" style="width: 100%; height: 80px; transform: skewY(60deg), skewX(50deg); outline: 1px solid">
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 15px;"> oshodi-leki. <i>20%Returnin12months</i>
-							
-						</div>
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 5px;">Return. duration. Unitsavailable
-							<div class="card-text" style="word-spacing: 30px; padding-bottom: 5px;">32%. 24months. 185.
-							
-						</div>
-						
-
-					<div class="progress">
-						<div class="progress-bar progress-bar-stripped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuein="0" aria-valuemax="100" style="width: 32%;"></div>
-						
-					</div>
-
-					        <div class="card-text">23% left
-					        	<div class="btn-group">
-					        		<a href="#" class="btn btn-success" style="float: right; margin-left: 140px;">Fund</a>
-					        	</div>	
-					       	</div> 	
-
-					       	
-							   
-							  
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<div class="card">
-					<div class="card-block">
-						<img src="busss.png" alt="" class="img-fluid" style="width: 100%; height: 80px; transform: skewY(60deg), skewX(50deg); outline: 1px solid;">
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 15px;"> oshodi-leki. <i>20%Returnin12months</i>
-							
-						</div>
-						<div class="card-text" style="word-spacing: 20px; padding-bottom: 5px;">Return. duration. Unitsavailable
-							<div class="card-text" style="word-spacing: 30px; padding-bottom: 5px;">32%. 24months. 185.
-							
-						</div>
-						</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-stripped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuein="0" aria-valuemax="100" style="width: 32%;"></div>
-						
-					</div>
-
-					        <div class="card-text">23% left
-					        	<div class="btn-group">
-					        		<a href="#" class="btn btn-success" style="float: right; margin-left: 140px;">Fund</a>
-					        	</div>	
-					       	</div> 	
-
-					       	
-							   
-							  
-					</div>
-				</div>
-			</div>
-
-		</div>
-		
-	</div>
-
-	
 </body>
 </html>
