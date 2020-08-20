@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff !important;
+    /*overflow-x: hidden;*/
 }
 
 a{
@@ -20,7 +20,7 @@ a{
   border-radius: 50px !important;
 }
 .btn-success{
-  background-color: #5cb85c !important;
+  background-color: teal !important;
   border-color: #4cae4c;
 }
 .navbar-nav>li>a {
@@ -32,7 +32,7 @@ a{
 }
 .glyphicon-user{
   color: white;
-  background-color: #5cb85c !important;
+  background-color: teal !important;
   padding: 6px 6px;
   border-radius: 100%;
   font-size: 8px;
@@ -40,10 +40,11 @@ a{
 .second-section {
   max-width: 90%;
   margin: 0 auto;
-  height: 27rem;
+  height: 33rem;
   display: grid;
   grid-template-columns: 50% 50%;
   border-radius: 100px;
+  margin-bottom: 50px;
 }
 .second-section_left {
   position: relative;
@@ -60,7 +61,7 @@ a{
 }
 .second-section_left-container a {
   color: #fff;
-  background-color: #6CB65E;
+  background-color: teal;
   padding: 10px 15px;
   border: 20px;
 }
@@ -70,7 +71,11 @@ a{
 }
 .btn2{
   margin: 0 3px;
-  background-color: #6CB65E !important;
+  background-color: teal !important;
+  text-align: center;
+  }
+  .btn-lg{
+    border-radius: 0px !important;
   }
 .btn2 a:hover {
   opacity: 0.8;
@@ -86,4 +91,64 @@ a{
   height: 300px;
   width: 700px;
 }
+.blue {
  
+  height: 50px;
+  background-color: powderblue;
+  text-align: center;
+}
+.third-section{
+  height: 50vh;
+}
+.hwt{
+  text-align: center;
+  background-color:rgb(225, 247, 243);
+  height: 160px;
+}
+.hwt h1{
+  font-size: 30px;
+  color: teal;
+}
+.p-tag1{
+  padding: 13px 8px 8px 8px;
+  background-color: #bfe6f5;
+  width: 72px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top:22px
+  }
+  .p-tag1 p{
+    font-weight: bold;
+    background: inherit;
+    font-size: 27px;
+    vertical-align: middle;
+    color: #4ba7dd;
+  }
+
+  .card {
+    
+    height:150px;
+    margin-left: 30px;
+    box-shadow: 5px 10px 8px #888888;
+    
+  }
+.caa{
+z-index: 900 !important;
+margin-top:-50px;
+background: white;
+
+}
+  
+  .card-body {
+    padding:  20px 29px 10px 10px;
+    height: inherit
+  }
+
+  .desp{
+    margin-top:20px;
+    
+  }
+
+h4{
+  color: teal !important;
+}
