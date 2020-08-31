@@ -20,7 +20,7 @@ a{
   border-radius: 50px !important;
 }
 .btn-success{
-  background-color: teal !important;
+  background-color: #3CB371 !important;
   border-color: #4cae4c;
 }
 .navbar-nav>li>a {
@@ -32,7 +32,7 @@ a{
 }
 .glyphicon-user{
   color: white;
-  background-color: teal !important;
+  background-color: #3CB371 !important;
   padding: 6px 6px;
   border-radius: 100%;
   font-size: 8px;
@@ -61,7 +61,7 @@ a{
 }
 .second-section_left-container a {
   color: #fff;
-  background-color: teal;
+  background-color: #3CB371;
   padding: 10px 15px;
   border: 20px;
 }
@@ -71,7 +71,7 @@ a{
 }
 .btn2{
   margin: 0 3px;
-  background-color: teal !important;
+  background-color: #3CB371 !important;
   text-align: center;
   }
   .btn-lg{
@@ -97,85 +97,81 @@ a{
   background-color: powderblue;
   text-align: center;
 }
-/*.third-section{
-  height: 50vh;
-}*/
-.hwt{
-  text-align: center;
-  background-color:rgb(225, 247, 243);
-  height: 160px;
+
+.lemon-bg{
+  height: 140px;
+  background: rgb(212, 239, 249);
+  width: 100%;
 }
-.hwt h1{
-  font-size: 30px;
-  color: teal;
+
+.lemon-bg > .banner-header {
+  text-align: center;
+  font-weight: 700 !important;
+  padding: 20px 0px;
+  font-size: 24px;
+    color: #3CB371;
+}
+.card {
+    
+    height:150px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px #88888847;
+    
+  }
+
+.card-body{
+  background-color: #ffffff;
 }
 .p-tag1{
-  padding: 13px 8px 8px 8px;
-  background-color: #bfe6f5;
-  width: 72px;
+  padding: 13px 5px 7px 5px;
+  background-color: rgb(212, 239, 249);
+  width: 66px;
   text-align: center;
   border-radius: 50%;
-  margin-top:22px
+  margin-top:22px;
+  
   }
   .p-tag1 p{
     font-weight: bold;
     background: inherit;
     font-size: 27px;
     vertical-align: middle;
-    color: #4ba7dd;
+    color: #3CB371;
   }
-
-  .card {
-    
-    height:150px;
-    margin-left: 30px;
-    box-shadow: 5px 10px 8px #888888;
-    
+  .card-title{
+    padding-top: 10px;
+    color: #3CB371;
+    font-size: 20px;
   }
-.caa{
-z-index: 900 !important;
-margin-top:-50px;
-background: white;
-
-}
-  
-  .card-body {
-    padding:  20px 29px 10px 10px;
-    height: inherit
-  }
-
-  .desp{
-    margin-top:20px;
-    
-  }
-
-h4{
-  color: teal !important;
-}
-
-
-.sponsor{
+.sponsor,.sponsor1{
   text-align: center;
 }
+
 .sponsor h1{
   font-size: 30px;
-  color: teal;
+  padding-bottom: 5px;
+  padding-top:70px;
+}
+.sponsor1 h1{
+  font-size: 30px;
+  color: #3CB371;
   padding-bottom: 5px;
   padding-top:70px;
 }
 .sponsor p{
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 40px;
 }
 .card1 {
     
   height:400px;
   margin-left: 30px;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 0px 0px 10px #88888847;
   
 }
 .caaa{
-  background: #f5ecec;
+  background: #F8F8FF;
+  
 }
 .location {
   display: flex;
@@ -194,7 +190,7 @@ h4{
   padding-right: 10px;
 }
 .description p:first-child {
-  color: teal;
+  color: #3CB371;
   font-size: 15px;
 }
 .description p:last-child {
@@ -208,7 +204,7 @@ h4{
   margin: 10px 10px;
 }
 .progress-bar {
-  background-color: teal !important;
+  background-color: #3CB371 !important;
   border-radius: 20px;
 }
 .funding {
@@ -219,11 +215,11 @@ h4{
 }
 
 .funding p {
-  font-size: 15px;
+  font-size: 10px;
 }
 .funding a {
   color: #fff;
-  background-color: teal;
+  background-color: #3CB371;
   padding: 7px 20px;
   font-weight: bold;
 }
@@ -231,9 +227,200 @@ h4{
   margin: 10px 3px;
 }
 .direct{
-  color: teal;
+    color: #3CB371;
+    font-weight: bold;
     font-family: Gilroy-Bold;
     text-align: center;
     padding-top: 60px;
+    font-size: 18px;
+}
+.row{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.row:before{
+  display: flex;
+  content: "";
+}
+.hidep1{
+  font-size: 20px;
+    line-height: 1.22;
+    color: #3CB371;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.hidep2{
+  font-size: 13px;
+    text-align: center;
+    font-weight: 400;
 }
     
+.forth-section{
+  margin: auto;
+  padding-top: 50px;
+}
+.forth{
+  height: 60vh;
+}
+.cards {
+    
+  height:150px;
+  margin-left: 30px;
+}
+
+.shield{
+  width: 50px;
+  background: #32CD32;
+  border-radius: 50%;
+  padding: 10px;
+}
+.shield1{
+  width: 50px;
+  background: #FFA500;
+  border-radius: 50%;
+  padding: 10px;
+}
+.shield2{
+  width: 50px;
+  background: #191970;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.testimonials-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.row1{
+  margin-right: 150px;
+  margin-left: 150px;
+  display: flex;
+  height: 60%;
+}
+.card2 {
+    
+  height:250px;
+  margin-left: 30px;
+  box-shadow: 0px 0px 10px #88888847;
+  
+}
+.card-textz{
+  font-size: 14px;
+  text-align: center;
+  color: #6565a3;
+}
+.last{
+  height: 60vh;
+}
+.sponsor2{
+  text-align: center;
+}
+.sponsor2 h1{
+  font-size: 30px;
+  color: black;
+  padding-bottom: 50px;
+}
+.big-box{
+      background: #3CB371;
+      height:250px;
+      border-radius: 20px;
+      width: 80%;
+      background-size:100% 50%;
+      border-radius: 20px;
+      text-align:center;
+      line-height:50px;
+      padding-top: 40px;
+      margin-left: 90px;
+      color: green;
+
+}
+.big-box h1{
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+.big-box p{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn0{
+  padding: 0px 45px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+.footer{
+  width: 100%;
+  padding-top: 60px;
+  display: block;
+}
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 15px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  color: rgb(84, 209, 88);
+}
+.footer-items {
+  width: 25%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.small-footer-items {
+  width: 15%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  
+}
+.small-footer-items h4{
+font-weight: bold;
+}
+
+.footer-items h1{
+  padding: 10px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-items p {
+  font-size: 13px;
+  text-align: justify;
+  line-height: 25px;
+}
+.footer-items h3{
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(84, 209, 88);
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+ul a {
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s;
+}
+ul li {
+  margin: 10px 0;
+  height: 25px;
+
+}
+li i{
+  margin-right: 20px;
+}
+.small-footer-items a{
+  color: rgb(84, 209, 88) !important;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+
